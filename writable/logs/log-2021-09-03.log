@@ -1,0 +1,6 @@
+CRITICAL - 2021-09-03 06:03:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\codeigniter\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\codeigniter\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\codeigniter\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\codeigniter\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
